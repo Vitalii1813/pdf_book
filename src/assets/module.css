@@ -1,5 +1,6 @@
 body{
-  background: #1abe1a;
+    background: linear-gradient(141deg, rgb(73, 255, 41) 0.00%, rgb(19, 125, 0) 100.00%);
+
 }
 .dropzone {
     display: flex;
@@ -55,9 +56,17 @@ body{
 .message{
   font-size: 60px;
 }
-
+.newBlock{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 5px solid black;
+}
 a {
-    width: 30%;
+    width: 100px;
+    height: 100px;
     display: block; /* Робить посилання блоковим елементом */
     padding: 20px; /* Внутрішні відступи */
     margin: 10px 0; /* Зовнішні відступи */

@@ -24,7 +24,7 @@ const BookList: React.FC = () => {
     return (
         <div>
             <h1 className="one">Library1</h1> {/* Заголовок сторінки */}
-            <ul>
+            <ul className="newBlock">
                 {/* Відображення списку книг */}
                 {books.map((book) => (
                     <li key={book.id}>
