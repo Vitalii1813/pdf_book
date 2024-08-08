@@ -32,7 +32,7 @@ const UploadBook: React.FC = () => {
             className={styles.dropzone} // Додаємо клас стилів
         >
             <input {...getInputProps()} /> {/* Включаємо input для вибору файлів */}
-            <p className={styles.message}>Drag 'n' drop a PDF file here, or click to select one</p> {/* Інструкція для користувача */}
+            <button className="message">Drag 'n' drop a PDF file here, or click to select one</button> {/* Інструкція для користувача */}
         </div>
     );
 };

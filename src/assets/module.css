@@ -1,12 +1,78 @@
-h1{
-  background: aquamarine;
-}
 body{
-  background: green;
+  background: #1abe1a;
 }
-.one{
- background: yellow;
+.dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px dashed #1a73e8; /* Стиль межі */
+    border-radius: 10px; /* Закруглені кути */
+    background-color: #f0f0f0; /* Фоновий колір */
+    transition: background-color 0.3s, border-color 0.3s; /* Плавний перехід */
 }
+
+.dropzone:hover {
+    background-color: #e0e0e0; /* Зміна фону при наведенні */
+    border-color: #0c47a1; /* Зміна кольору межі при наведенні */
+}
+
+.message {
+    color: #1a73e8; /* Колір тексту */
+    font-size: 1.2em; /* Розмір шрифту */
+    font-weight: bold; /* Жирний шрифт */
+    text-align: center; /* Вирівнювання тексту по центру */
+    margin-top: 10px; /* Відступ зверху */
+}
+
+.message:hover {
+    color: #0c47a1; /* Зміна кольору тексту при наведенні */
+}
+
+
+.one {
+    background: blue; /* Фоновий колір */
+    color: white; /* Колір тексту */
+    font-size: 2.5em; /* Розмір шрифту */
+    font-weight: bold; /* Жирний шрифт */
+    text-align: center; /* Вирівнювання тексту по центру */
+    padding: 20px; /* Внутрішні відступи */
+    margin: 20px 0; /* Зовнішні відступи */
+    border-radius: 15px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь */
+    transition: transform 0.3s, box-shadow 0.3s; /* Плавний перехід */
+}
+
+.one:hover {
+    transform: translateY(-5px); /* Спливання при наведенні */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Зміна тіні при наведенні */
+    background: orange; /* Зміна фону при наведенні */
+    color: darkred; /* Зміна кольору тексту при наведенні */
+}
+
 .message{
   font-size: 60px;
+}
+
+a {
+    width: 30%;
+    display: block; /* Робить посилання блоковим елементом */
+    padding: 20px; /* Внутрішні відступи */
+    margin: 10px 0; /* Зовнішні відступи */
+    background-color: #f0f0f0; /* Фоновий колір */
+    color: #1a73e8; /* Колір тексту */
+    text-decoration: none; /* Відсутність підкреслення */
+    font-weight: bold; /* Жирний шрифт */
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+    transition: transform 0.3s, box-shadow 0.3s; /* Плавний перехід */
+}
+
+a:hover {
+    transform: translateY(-5px); /* Спливання при наведенні */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Зміна тіні при наведенні */
+    background-color: #e0e0e0; /* Зміна фону при наведенні */
+    color: #0c47a1; /* Зміна кольору тексту при наведенні */
 }
